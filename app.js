@@ -2,7 +2,7 @@ const { faSquareShareNodes } = require('@fortawesome/free-solid-svg-icons');
 
 document.addEventListener('DOMContentLoader', () => {
   const grid = document.querySelector('.grid');
-  const scoreDisplay = document.querySelector('#score');
+  const scoreDisplay = document.getElementById('score');
   const width = 28; //28 x 28 = 784 squares
 
   const layout = [];
